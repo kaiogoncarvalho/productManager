@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "product/manager",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Product Manager.",
     "keywords": [
         "framework",
         "laravel"
@@ -11,14 +11,17 @@
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
+        "laravel/passport": "^8.4",
         "laravel/tinker": "^2.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "facade/ignition": "^1.4",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^8.0",
+        "barryvdh/laravel-ide-helper": "^2.6"
     },
     "config": {
         "optimize-autoloader": true,
